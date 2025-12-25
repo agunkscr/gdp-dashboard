@@ -145,7 +145,8 @@ def main():
             'Solana': 'solana',
             'Ripple': 'ripple',
             'Polkadot': 'polkadot',
-            'Dogecoin': 'dogecoin'
+            'Dogecoin': 'dogecoin',
+            'Gst': 'green-satoshi-token'
         }
         
         selected_coin = st.selectbox("Pilih Cryptocurrency", list(coins.keys()))
